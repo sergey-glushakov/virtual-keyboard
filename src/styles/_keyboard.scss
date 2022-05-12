@@ -1,0 +1,61 @@
+.keyboard {
+  background-color: #e7e7e7;
+}
+
+.row {
+  display: flex;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 4px;
+  color: var(--color-text);
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  // border-bottom: 2px solid #786a6a;
+  box-shadow: 0px 5px 5px 1px #825568;
+
+  &__backspace {
+    flex-grow: 4;
+  }
+
+  &__tab{
+    flex-grow: 3;
+  }
+
+  &__caps-lock {
+    flex-grow: 4;
+  }
+
+  &__enter {
+    flex-grow: 4;
+  }
+
+  &__shift-left,
+  &__shift-right {
+    flex-grow: 5;
+  }
+
+  &__ctrl-left,
+  &__ctrl-right {
+    flex-grow: 1.5;
+  }
+
+  &__space {
+    flex-grow: 12;
+  }
+
+  &.active {
+    box-shadow: 0px 0px 1px 0px #825568;
+    transform: translateY(3px);
+  }
+}
