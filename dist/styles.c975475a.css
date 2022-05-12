@@ -96,7 +96,9 @@ textarea {
   cursor: pointer;
   overflow: hidden;
   -webkit-box-shadow: 0px 5px 5px 1px #825568;
-          box-shadow: 0px 5px 5px 1px #825568; }
+          box-shadow: 0px 5px 5px 1px #825568;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
   .button__backspace {
     -webkit-box-flex: 4;
         -ms-flex-positive: 4;
@@ -129,7 +131,9 @@ textarea {
     -webkit-box-shadow: 0px 0px 1px 0px #825568;
             box-shadow: 0px 0px 1px 0px #825568;
     -webkit-transform: translateY(3px);
-            transform: translateY(3px); }
+            transform: translateY(3px);
+    -webkit-transition: all .3s;
+    transition: all .3s; }
 
 
-/*# sourceMappingURL=/styles.125f828a.css.map */
+/*# sourceMappingURL=/styles.c975475a.css.map */
