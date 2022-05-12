@@ -1,0 +1,9 @@
+:root {
+  --mainBg: bisque;
+  --color-text: chocolate;
+}
+
+@import './settings';
+@import './common';
+@import './app';
+@import './keyboard';

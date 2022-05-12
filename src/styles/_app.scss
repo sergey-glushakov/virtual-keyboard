@@ -1,0 +1,18 @@
+.app {
+  padding-top: 100px;
+  &__top {
+      margin-bottom: 40px;
+      .info{
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+  }
+
+  .textarea {
+    width: 100%;
+    resize: none;
+    background: #fff;
+    border-radius: 5px;
+  }
+}
